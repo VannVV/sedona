@@ -4,32 +4,30 @@
     <meta charset="utf-8">
     <title>SEDONA</title>
   </head>
-  
-  <body>
-
- <header class="page-header">
-  <nav class="navigaion">
-    <ul class=="navigation-list">
-      <li class="navigation-item">
+   <body>
+ 
+    <!-- РАЗМЕТКА ХЭДЕРА -->
+    <header class="page-header">
+     <nav class="navigaion">
+      <ul class=="navigation-list">
+       <li class="navigation-item">
         <a class="navigation-link"><img class="logo" src="img/logo.svg" alt="Логотип сайта Седона"></a>
        </li>
-
-       
-      <li class="navigation-item">
+       <li class="navigation-item">
        <a class="navigation-link" href="home.html">Главная</a>
-      </li> 
-      <li class="navigation-item">
+       </li> 
+       <li class="navigation-item">
         <a class="navigation-link" href="about.html">О Седоне</a>
        </li> 
        <li class="navigation-item">
         <a class="navigation-link" href="hotel.html">Гостиницы</a>
        </li> 
-    </ul>
-    <ul class=="navigation-list navigation-user">
-      <li class="navigation-item">
+      </ul>
+      <ul class=="navigation-list navigation-user">
+       <li class="navigation-item">
        <a class="navigation-link" href="#"> <span class visually-hidden">Поиск</span>
-      </a>
-      </li> 
+        </a>
+       </li> 
       <li class="navigation-item">
         <a class="navigation-link" href="#"> <span class visually-hidden">Избранное</span>
        </a>
@@ -38,14 +36,10 @@
         <a class="navigation-link" href="#">     <span class visually-hidden">Вход</span>
        </a>
        </li>
-
-
-       
     </ul>
-
   </nav>
-
  </header> 
+ <!-- РАЗМЕТКА ОСНОВНОЙ ЧАСТИ -->
  <main class="main-index">
   <h1>SEDONA</h1>                                 
 <!-- СЮДА НАДО КАК-ТО ВСТАВИТТЬ СЕКЦИЮ С ФОНОМ И НАЗВАНИЕМ СЕДОНА В КРИВЫХ ХЗ ПОКА НЕ ЗНАЮ КАК ЭТО -->
@@ -101,17 +95,37 @@
   </ul>
   <h2 class="advantages">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
   <p class="advantages-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-     <a class="button button-all" href="#">     <span class visually-hidden">Поиск гостиницы</span>   </a>
-    
-  
+     <a class="button button-all" href="#">     <span class visually-hidden">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</span>   </a>
+  <h2 class="advantages">ПОДПИШИСЬ НА РАССЫЛКУ</h2>
+  <p class="advantages-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+    <form class="newsletter-form" action="https://echo.htmlacademy.ru" method="POST">  
+     <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+      <button class="button newsletter-button" type="submit"><span class="visually-hidden">ПОДПИСАТЬСЯ</span>
+      </button>
+</form>
+<!-- РАЗМЕТКА ФУТЕРА -->
+<footer class="page-footer">
+  <section class="footer-social">
+   <ul class="footer-social-list">
+    <li class="footer-social-item">
+      <a class="button" href="https://vk.com/htmlacademy/">
+        <span class="visually-hidden">ВКонтакте</span>
+      </a>
+    </li>
+    <li class="footer-social-item">
+      <a class="button" href="https://t.me/htmlacademy/">
+        <span class="visually-hidden">Телеграмм</span>
+      </a>
+    </li>
+    <li class="footer-social-item">
+      <a class="button" href="https://www.youtube.com/user/htmlacademyru/">
+        <span class="visually-hidden">Ютуб</span>
+      </a>
+    </li>
+    <a class="about-develop" href="https://htmlacademy.ru/"><img class="logo" src="img/HTML_Academy.svg" alt="Логотип сайта httphtmlacademy.ru"></a>
+   </ul>
   </section>
-
-
-
+</footer>
 </main>
-  
-  
-  
-  
-  </body>
- </html>
+</body>
+</html>
